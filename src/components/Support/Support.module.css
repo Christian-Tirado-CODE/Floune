@@ -1,0 +1,26 @@
+.Support {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    min-height: 300px;
+    position: relative;
+    z-index: 100;
+    background-color:  white;
+}
+.SupportInfo {
+    grid-row: 2/3;
+    display: flex;
+}
+
+.SupportInfoImage {
+ height: 42px;
+ width: 42px;
+ margin-right: 20px;
+}
+
+.SupportInfoText {
+    font-size: 15px;
+}

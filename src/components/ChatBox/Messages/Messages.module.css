@@ -1,0 +1,7 @@
+.Messages {
+    height: 75%;
+    padding: 30px 0;
+    overflow: auto;
+    flex: auto;
+    font-size: 30px;
+  }

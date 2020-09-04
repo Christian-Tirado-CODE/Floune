@@ -1,0 +1,66 @@
+.Products {
+    width: 80%;
+    margin: 50px auto;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+thead {
+    border-bottom: 1px solid black;
+    
+}
+
+th {
+    padding: 15px;
+}
+
+td {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.EditProductBtn {
+    background-color: #add8e6;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 30px;
+    border: none;
+}
+.DeleteProductBtn {
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 30px;
+    border: none;
+}
+
+.AddBtnContainer {
+    width: 90%;
+    margin: 50px auto;
+   display: flex;
+   justify-content: flex-end;
+}
+
+.AddBtn {
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+    padding: 10px 30px;
+
+}
+
+.AddBtn:focus {
+    outline: none;
+
+}
+
+.Title {
+    width: 20px;
+    
+}

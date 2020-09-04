@@ -1,0 +1,35 @@
+  
+.InfoBar {
+    box-shadow: 0 0 6px rgba(0,0,0,0.3);
+   font-size: 16px;
+}
+
+.TopBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: black;
+  border-radius: 4px 4px 0 0;
+  height: 60px;
+  width: 100%;
+  box-shadow: 0 0 6px rgba(0,0,0,0.3); 
+}
+
+.LeftInnerContainer {
+  flex: 0.5;
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  color: white;
+}
+
+.RightInnerContainer {
+  display: flex;
+  flex: 0.5;
+  justify-content: flex-end;
+  margin-right: 5%;
+}
+
+.OnlineIcon {
+  margin-right: 5%;
+}

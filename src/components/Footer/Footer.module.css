@@ -1,0 +1,17 @@
+.Footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f6f6f8;
+    font-size: 16px;
+    padding: 90px 30px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+}
+.FooterColumns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+}

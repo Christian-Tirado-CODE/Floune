@@ -1,0 +1,46 @@
+.SwitchLinks{
+    width: 1000px;
+    margin: 40px auto 20px;
+    font-size: 60px;
+    text-align: center;
+}
+
+.SwitchLink {
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+    
+    background-color: transparent;
+}
+
+.SwitchLink:focus {
+    outline: none;
+    color: #6610f2;
+}
+
+.FormContainer {
+    width: 60%;
+    margin: 100px auto;
+    box-shadow: 0 0 6px rgba(0,0,0,0.3);
+    padding: 100px 20px;
+    box-sizing: border-box;
+}
+
+.GridContainer {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    column-gap: 20%;
+    row-gap: 50px;
+}
+
+.ForgotPwd {
+    font-size: 20px;
+    width: 100%;
+
+}
+
+.Divider {
+font-size: 15px;
+}
+
+

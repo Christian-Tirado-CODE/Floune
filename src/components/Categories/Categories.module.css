@@ -1,0 +1,24 @@
+.Categories {
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    min-height: 300px;
+    
+}
+
+.CategoriesOptions {
+ margin-right: 10px;
+ width: 20%;
+}   
+ .CategoriesList {
+     flex: 1;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+    
+ }
+
+ .Category {
+     display: flex;
+     font-size: 15px;
+     font-weight: 500;
+ }

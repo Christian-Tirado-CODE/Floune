@@ -1,0 +1,27 @@
+.ChatInfo {
+    padding: 15px;
+    border-top: 1px solid black;
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    align-items: center;
+}
+
+.User {
+  margin-right: 50px;
+  font-weight: 700;
+}
+.Message {
+    font-size: 20px;
+}
+.ChatInfo:hover {
+    background-color: lightgray;
+}
+
+.RemoveChat {
+    margin-left: auto;
+}
+
+.Text {
+    width: 80%;
+}

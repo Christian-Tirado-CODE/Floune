@@ -1,0 +1,43 @@
+.Nav {
+    
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding: 25px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.3);
+   
+    
+}
+.Link {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 20px;
+}
+.Link:visited {
+    color: black;
+}
+
+.Nav > * {
+    margin: 0;
+}
+
+ul {
+ list-style-type: none;
+    
+}
+
+.NavLinks {
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    margin-bottom: 0;
+}
+
+.NavLink {
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    padding:  0 15px;
+}
+.NavLink:hover {
+    text-decoration: none;
+}

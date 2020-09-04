@@ -1,0 +1,33 @@
+.CheckoutInfo {
+    background-color: lightgrey;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.FlexContainerWB {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+}
+.FlexContainer{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;   
+}
+
+.PlaceOrderBtn {
+    padding: 20px;
+    background-color: #6610f2;
+    color: white;
+    border-radius: 60px;
+    width: 100%;
+    font-size: 25px;
+    margin-top: 50px;
+    border: none;
+}
+
+.PlaceOrderBtn:hover {
+    background-color: #4d0cb6;
+
+}

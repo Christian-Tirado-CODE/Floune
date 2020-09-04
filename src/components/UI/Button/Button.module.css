@@ -1,0 +1,22 @@
+.Btn {
+    background-color: rgb(230, 230, 230);
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    outline: none;
+}
+
+.AuthBtn {
+
+}
+
+.Btn:hover {
+    background-color: #6610f2;
+    color: white;
+}
+
+.Btn:disabled {
+    cursor: not-allowed;
+}
+
+

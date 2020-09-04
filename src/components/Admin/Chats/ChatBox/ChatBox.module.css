@@ -1,0 +1,27 @@
+.ChatBox {
+    width: 60%;
+    height: 70vh;
+    margin: 0 auto;
+    box-shadow: 0 0 6px rgba(0,0,0,0.3);
+    box-sizing: border-box;  
+    position: relative; 
+    margin-top: 200px;
+}
+
+.ChatControls {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+display: flex;
+font-size: 30px;
+}
+
+.ChatInput {
+   flex-grow: 1;
+   padding: 50px;
+}
+.SendBtn {
+    width: 20%;
+    padding: 50px;
+    
+}

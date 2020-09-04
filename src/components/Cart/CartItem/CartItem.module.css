@@ -1,0 +1,35 @@
+.OrderControls {
+    width: 50%;
+    border: 1px solid gray;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin: 0 auto;
+}
+.OrderControls, .OrderControl {
+font-size: 20px;
+}
+
+.OrderControl {
+
+    border-top: none;
+    border-bottom: none;
+    
+}
+
+.CartItem {
+   
+    border-bottom: 1px solid rgb(156, 156, 156);
+}
+
+.RemoveCartItem {
+    font-size: 20px;
+}
+
+.SubTotal {
+    font-size: 16px;
+}
+
+.CartImage {
+    width: 150px;
+    height: 200px;
+}

@@ -1,0 +1,10 @@
+.Title {
+    text-align: center;
+    padding: 20px;
+}
+
+.Chats {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+}

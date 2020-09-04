@@ -1,0 +1,22 @@
+.LoginForm {
+    width: 50%;
+    margin: 250px auto;
+    min-height: 500px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.3);
+    padding: 200px 80px;
+    box-sizing: border-box;
+}
+
+.GridContainer {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    column-gap: 20%;
+    row-gap: 50px;
+}
+
+.ForgotPwd {
+    font-size: 40px;
+    width: 50%;
+    margin-left: auto;
+}
+

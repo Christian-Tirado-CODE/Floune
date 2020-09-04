@@ -1,0 +1,43 @@
+
+.Container{
+    width: 100%;
+}
+.ProductCard {
+   
+    
+}
+.ProductCard:hover .AddToCart {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all .5s;
+}
+
+.AddToCart {
+    width: 100%;
+    background-color: #a749ff;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transform: translateY(10px);
+    opacity: 0;
+    transition: all .8s;
+}
+
+.AddToCart:hover {
+    background-color: black;
+    transition: 1s;
+}
+
+.ProductName {
+    text-align: center;
+    font-weight: 300;
+    font-size: 24px;
+    margin: 50px 0;
+}
+

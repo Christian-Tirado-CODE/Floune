@@ -1,0 +1,20 @@
+.FooterColumn {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.FooterColumnTitle {
+    font-size: 20px;
+}
+
+.FooterColumnLinks {
+    list-style-type: none;
+    font-size: 16px;
+    padding: 0;
+}
+
+.FooterColumnLink {
+    padding: 16px;
+    
+}

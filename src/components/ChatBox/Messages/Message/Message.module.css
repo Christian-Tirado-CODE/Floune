@@ -1,0 +1,67 @@
+.MessageBox {
+    background: #F3F3F3;
+    border-radius: 20px;
+    padding: 5px 20px;
+    color: white;
+    display: inline-block;
+    max-width: 80%;
+   
+  }
+  
+  .MessageText {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    word-wrap: break-word;
+  }
+  
+  .MessageText img {
+    vertical-align: middle;
+  }
+  
+  .MessageContainer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 5%;
+    margin-top: 3px;
+  }
+  
+  .SentText {
+    display: flex;
+    align-items: center;
+    font-family: Helvetica;
+    color: #828282;
+    letter-spacing: 0.3px;
+  }
+  
+  .Pl10 {
+    padding-left: 10px;
+  }
+  
+  .Pr10 {
+    padding-right: 10px;
+  }
+  
+  .JustifyStart {
+    justify-content: flex-start;
+  }
+  
+  .JustifyEnd {
+    justify-content: flex-end;
+  }
+  
+  .ColorWhite {
+    color: white;
+  }
+  
+  .ColorDark {
+    color: #353535;
+  }
+  
+  .BackgroundBlue {
+    background: #a749ff;
+  }
+  
+  .BackgroundLight {
+    background: #F3F3F3;
+  }

@@ -1,0 +1,42 @@
+
+.Container {
+    display: flex;
+}
+.SideMenu {
+    height: 100vh;
+    position: fixed;
+    width: 30vh;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  color: white;
+}
+
+.SideMenu > ul {
+    list-style-type: none;
+    font-size: 30px;
+    padding: 0;
+}
+
+.SideMenu > li {
+    
+}
+
+.Main {
+    margin-left: 20vh;
+   width: 100%;
+}
+
+li {
+    padding: 15px;
+}
+
+.SideMenuLogo {
+    border-bottom: 1px solid white;
+    margin-bottom: 50px;
+    font-size: 30px;
+    padding-bottom: 30px;
+}

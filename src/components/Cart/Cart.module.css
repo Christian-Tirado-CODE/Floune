@@ -1,0 +1,57 @@
+.Table {
+   width: 100%; 
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 15px;
+}
+
+.Container {
+    width: 90%;
+    margin: 0 auto
+}
+
+.TableHeading{
+    padding: 25px;
+    background-color: rgb(235,235,235);
+    margin: 0;
+    
+}
+
+.TableHeading td {
+   
+   
+}
+
+.ColumnHeading {
+    font-size: 16px;
+    padding: 25px;
+    font-weight: 100;
+    border-top: 1px solid rgb(235,235,235);
+}
+
+td {
+    font-size: 40px;
+}
+
+.TableBody td {
+    padding: 50px 0;
+    
+} 
+
+.CartButtons {
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.CartButton {
+    font-size: 16px;
+    border-radius: 50px;
+    padding: 10px 40px;
+    border: none;
+    background-color: #f6f6f8;
+    transition: all .5s;
+}
+.CartButton:hover {
+    color: white;
+    background-color: #a749ff;
+}

@@ -1,0 +1,52 @@
+.Homepage {
+    min-height: 100vh;
+   position: absolute;
+
+}
+
+.Hero {
+    height: 100vh;
+    width: 100%;
+    background-color: #f0e0ff;
+    position: relative;
+}
+
+.HeroContent {
+    
+    width: 80%;
+    height: 100%;
+    margin:  0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.HeroText {
+ font-size: 300px;
+ display: grid;
+ grid-template-rows: repeat(3, 1fr);
+}
+
+.HeroTextContainer {
+    grid-row: 2/3;
+}
+
+.HeroTitle {
+    font-size: 50px !important;
+    
+}
+.Person1 {
+    width: 504px;
+}
+.Person2 {
+    height: 600px;
+}
+
+
+h2 {
+    font-size: 20px !important;
+
+}
+.ShopNow {
+    border: 1px solid black;
+    padding: 20px;
+
+}

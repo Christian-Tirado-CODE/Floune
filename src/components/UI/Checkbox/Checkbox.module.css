@@ -1,0 +1,13 @@
+.Container {
+ display: flex;
+ align-items: center;
+ font-size: 20px;
+}
+
+.CheckBox {
+width: 16px;
+height: 16px;
+border-radius: 5px;
+box-sizing: border-box;
+margin-right: 20px;
+}

@@ -64,7 +64,7 @@
     "react-scroll-to-bottom": "^3.0.0",
     "react-transition-group": "^4.4.1",
     "reactstrap": "^8.5.1",
-    "styled-components": "^5.1.1",
+    "styled-components": "^5.2.1",
     "uuid": "^8.3.0"
   }
 }

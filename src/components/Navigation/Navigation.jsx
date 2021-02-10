@@ -16,7 +16,7 @@ class Navigation extends Component {
 
     
     render() {
-        console.log('Navigation: render()');
+    
         return (
             <nav className={classes.Nav}>
                <Link className={classes.Link} to="/"><Logo /></Link> 

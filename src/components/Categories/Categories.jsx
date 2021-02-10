@@ -89,7 +89,7 @@ filterProducts = (event) => {
                 <div className={classes.Categories}>
                     <div className={classes.CategoriesOptions}>
                         <h2>Categories</h2>
-                        <ul>
+                        <ul className={classes.CategoriesOptionsList}>
                             <li className={classes.Category}><CheckBox value="Men" filter={this.filterProducts}/>Men</li>
                             <li className={classes.Category}><CheckBox value="Women" filter={this.filterProducts}/>Women</li>
                             <li className={classes.Category}><CheckBox value="Kids" filter={this.filterProducts}/>Kids</li>
